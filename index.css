@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+body{
+    font-family: 'Inter';
+    font-style: normal;
+    box-sizing: border-box;
+}
+.wrapper{
+    text-align: center;
+    width: 550px;
+    height: 1010px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.upper{
+    background-color: pink;
+    height: 260;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: 800;
+    text-align: center;
+    color: #FFFFFF;
+    background: linear-gradient(246.26deg, #585DFE 0%, #FB3796 100%);
+}
+.upper h2{
+    margin-top: 30px;
+    
+    font-size: 22px;
+    line-height: 38px;
+    letter-spacing: -0.05em;
+    color: #FFFFFF;
+}
+.upper #inputNumTop{
+    margin-top: 64px;
+    width: 200px;
+    margin: 0 auto 0 auto;
+    height: 40px;
+}
+.iNt{
+    display: inline-block;
+}
+.btnFind{
+    height: 40px;
+}
+
+.lower{
+    background-color: blue;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background: #FBF7EE;
+}
